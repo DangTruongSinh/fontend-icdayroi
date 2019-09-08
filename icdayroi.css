@@ -1,0 +1,345 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+ul{
+    list-style-type: none;
+}
+p{
+    color:gray;
+}
+a{
+    text-decoration: none;
+    color: #fff;
+}
+
+.header-container1{
+    display: flex;
+    border-bottom: 1px solid gray;
+}
+.header-container2{
+    margin-top: 20px;
+    margin-left: 50px;
+    width: 100%;
+    display: inline-flex;
+}
+
+.header-hinh{
+    display: inline-flex;
+    padding: 10px;
+    border-left: 1px solid rgb(218, 215, 215);
+}
+
+.ic-youtube{
+    border-right: 1px solid rgb(218, 215, 215);
+}
+.header-trai{
+    margin-top: 9px;
+    margin-left: 50px;
+    width: 80%;
+}
+.header-trai p{
+    color:#8c8c8c;
+}
+.header-phai{
+    width: 20%;
+}
+.header-container2 .center-block{
+    margin-left: 30px;
+}
+.header-container2 .center-block p{
+    color: #2790f2;
+}
+.search_input{
+    border:#2790f2 thin solid!important;
+    width: 80%;
+    padding: 15px 0px 15px 0px;
+}
+.header-container2 .center-block{
+    width: 40%;
+}
+.btnsearch{
+    position: absolute;
+    padding: 15px 0px 15px 0px;
+    width: 100px;
+    background: #2790f2;
+    border: #2790f2;
+    text-align: center;
+    font-size: 14px;
+    color: #fff;
+}
+.header-container2 .khoi3{
+    display: flex;
+    margin-top: 10px;
+    margin-left: 180px;
+}
+.header-container2 .khoi3 .item1 img{
+    margin-left: 20px;
+    margin-bottom: 5px;
+}
+.header-container2 .khoi3 .item2{
+    margin-left: 30px;
+}
+.header-container2 .khoi3 .item2 img{ 
+    margin-left: 10px;
+    margin-bottom: 5px;
+}
+
+.header-container2 .center-block p{
+    margin-left: 20px;
+}
+.header-container2 .khoi1{
+    margin-top: 5px;
+}
+.menu{
+    background: #2790f2;
+    display: flex;
+    margin-top:20px;
+    border: #fff 1px dashed;
+    
+}
+.menu .khoi1{
+    display: flex;
+    margin-left:50px;
+   
+}
+.menu .khoi1 ul{
+   
+    padding: 10px;
+    display: flex;
+}
+.menu .khoi1 ul li{
+    padding: 10px;
+}
+.menu .khoi1 .item-menu{
+  
+    padding: 10px;
+    border-right: 0.03px solid rgb(209, 195, 195);
+}
+.menu .khoi1 .item1{
+    display: flex;
+}
+.menu .khoi2{
+    margin-left:250px;
+    display: flex;
+}
+.menu .khoi2 img{
+    margin-top:8px;
+    height: 40px;
+}
+.menu .khoi2 a{
+   margin-top: 20px;
+   margin-left: 10px;
+}
+.body{
+    background: #F5F5F5;
+}
+.body .slide {
+    margin-left:50px;
+    padding-top:20px;
+}
+.body .bodyduoi{
+    margin-left: 50px;
+    display: flex;
+    margin-top:20px;
+
+}
+.body .bodyduoi .trai{
+    width: 22%;
+}
+.body .bodyduoi .block-title{
+    display: flex;
+    background: #2790f2;
+    padding: 10px 10px 10px 15px;
+    border: #fff 1px dashed;
+}
+.body .bodyduoi .trai .block-title i{
+    margin-top:2px;
+    color: #fff;
+}
+.block-title h3{
+    margin-left: 10px;
+    color: #fff;
+}
+.block-content{
+    background: white;
+}
+.body .bodyduoi .trai .khoi1 .block-content .item i{
+    color: #2790f2;
+}
+.body .bodyduoi .trai .khoi1 .block-content .item{
+    padding: 10px 10px 10px 15px;
+    border-left:#2790f2 1px dashed;
+    border-right:#2790f2 1px dashed;
+    border-bottom:#2790f2 1px dashed;
+}
+
+.bodyduoi .trai .khoi2{
+    margin-top:20px;
+}
+.sp1, .sp2{
+    background: url(https://bizweb.dktcdn.net/100/190/540/themes/510789/assets/support-online.png?1567071539466) left center no-repeat;
+    font-size: 20px;
+    margin-left:10px;
+
+}
+.bodyduoi .trai .khoi2 .block-content .sp1 p, .bodyduoi .trai .khoi2 .block-content .sp2 p,.bodyduoi .trai .khoi2 .block-content .sp3 p {
+    margin-left: 20px;
+    color : black;
+}
+
+.sp3{
+    background:url(https://bizweb.dktcdn.net/100/190/540/themes/510789/assets/email.png?1567071539466) left center no-repeat;;
+    font-size: 20px;
+    margin-left:10px;
+
+}
+.bodyduoi .khoi2 .block-content{
+    padding-bottom: 25px;
+    padding-top: 20px;
+}
+.bodyduoi .khoi3 {
+    margin-left:0px;
+    margin-top:30px;
+
+}
+
+.bodyduoi .khoi3 .blog-post{
+    background: #fff;
+    padding: 20px;
+}
+
+.bodyduoi .khoi3 .blog-post .blog-image h4
+{
+    margin-top:10px;
+    margin-bottom: 10px; 
+}
+.post-content{
+    font-size: 13px; margin-top: 10px;
+}
+.post-content a{
+    color: blue;
+}
+.body .bodyduoi .phai{
+    margin-left: 20px;
+    border-top: 2px solid #2790f2;
+    width: 73%;
+}
+.body .bodyduoi .phai h2{
+    background: #fff;
+    padding: 15px;
+
+}
+.block-item-sp{
+    width: 100%;
+}
+.block-item-sp .item{
+    background: white;
+    border-top: 1px solid #EBEBEB;
+    border-bottom: 1px solid #EBEBEB;
+    border-left: 2px solid #EBEBEB;
+    padding: 3px;
+    width: 24%;
+    height: 340px;
+    float: left;
+    padding-bottom: 10px;
+}
+.block-item-sp .item img{
+    width: 100%;
+}
+.block-item-sp .item p{
+    text-align: center;
+}
+.giamoi-item{
+    color: #2790f2;
+    font-weight: bold;
+    font-size: 20px;
+    padding: 2px 0px 2px 0px;
+}
+.giacu-item{
+    text-decoration: line-through;
+}
+.btnmua-item{
+    width: 80%;
+    height: 34px;
+    background: #fff;
+    color: #2790f2;
+    border: #2790f2 1px solid;
+    margin-left: 20px;
+}
+.sale-label{
+    position: absolute;
+    top:10px;
+    right: 10px;
+    padding: 7px;
+    background: #2790f2;
+    color: white;
+    border-radius:7px;
+}
+.footer-item{
+    border-top: 2px solid #EBEBEB;
+    background: #fff;
+}
+.footer-item button{
+    background:#2790f2;
+    margin: 10px;
+    color: #fff;
+    border-radius: 10px;
+    margin-left: 720px;
+    border: 1px solid #2790f2; 
+    width: 120px;
+    height: 30px;
+}
+
+.bodyduoi .phai .khoiduoi{
+    margin-top: 50px;
+}
+
+.footer{
+    padding-top: 50px;
+    background: #F5F5F5;
+
+}
+.footer .tren{
+    display: flex;
+    margin-top: 30px;
+    margin-left: 50px;
+}
+.footer .tren .khoi1 p, .khoi2 p{
+    color:#000;
+    margin: 10px;
+}
+.footer .tren .khoi2, .khoi3{
+    margin-left: 30px;
+}
+.footer .duoi{
+    display: flex;
+    margin-left: 50px;
+    margin-right: 50px;
+    border-top: 1px solid gray;
+}
+.footer .duoi .khoi1{
+    margin-left: 10px;
+    margin-top: 20px;
+    width: 40%;
+    
+}
+.footer .duoi .khoi1 h4, .footer .duoi .khoi1 p{
+    padding: 5px;
+}
+
+.footer .duoi .khoi2{
+    margin-left: 10px;
+    margin-top: 20px;
+    width: 35%;
+    
+}
+.footer .duoi .khoi2 .khoi-tuvan{
+    display: flex;
+}
+.footer .duoi .khoi2 p{
+    color:#8c8c8c;
+}
+.footer .duoi .khoi3{
+    margin-top: 40px;
+}
